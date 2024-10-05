@@ -133,12 +133,7 @@ See link:CONTRIBUTING{outfilesuffix}[CONTRIBUTING], which describes our processe
 None of our libraries are on Hackage, unfortunately (many of our dependencies aren't either).
 So for the time being, you need to:
 
-. Add `plutus-apps` as a `source-repository-package` to your `cabal.project`.
-. Copy the `source-repository-package` stanzas from our `cabal.project` to yours.
-. Copy additional stanzas from our `cabal.project` as you need, e.g. you may need some of the `allow-newer` stanzas.
 
-The https://github.com/input-output-hk/plutus-starter[plutus-starter] project
-(deprecated) provides an example.
 
 == Licensing
 
